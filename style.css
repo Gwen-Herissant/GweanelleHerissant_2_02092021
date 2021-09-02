@@ -1,0 +1,23 @@
+/*Color Variables*/
+:root {
+  --white: #ffffff;
+  --blue: #0065fc;
+  --ltblue: #deebff;
+  --ltgrey: #f2f2f2;
+}
+
+/*General Styles*/
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
