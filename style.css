@@ -34,6 +34,8 @@ a {
 ul,
 li {
   list-style: none;
+  padding: 0px;
+  margin: 0px;
 }
 
 /*NavBar Mobile*/
@@ -86,6 +88,7 @@ li {
   justify-content: center;
   width: 100%;
   border: 1px solid var(--secondarybg);
+  border-radius: 15px;
 }
 
 input {
@@ -94,7 +97,7 @@ input {
   padding: 18px;
 }
 
-i {
+.searchbar i {
   padding: 18px;
 }
 
@@ -110,4 +113,37 @@ i {
   color: var(--mainbg);
   background-color: var(--mainColor);
   border-radius: 15px;
+}
+
+.filter-section {
+  padding-top: 20px;
+}
+
+.filter-section h3 {
+  margin-bottom: 15px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  border: 2.5px solid var(--secondarybg);
+  border-radius: 45px;
+  margin: 6px 1px;
+}
+
+.filter i {
+  position: absolute;
+  color: var(--mainColor);
+  background-color: var(--secondaryColor);
+  padding: 16px;
+  border-radius: 50%;
+}
+
+.filter div {
+  padding: 11px 22px 11px 62px;
 }
