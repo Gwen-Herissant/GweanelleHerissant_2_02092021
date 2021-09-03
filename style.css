@@ -55,7 +55,7 @@ li {
   padding-right: 50px;
 }
 
-.btn {
+.nav-btn {
   padding: 25px 45px 20px 80px;
   border-bottom: 5px solid var(--secondarybg);
 }
@@ -65,7 +65,49 @@ li {
   color: var(--mainColor);
 }
 
-.btn:active,
-.btn:hover {
+.nav-btn:active,
+.nav-btn:hover {
   border-bottom: 5px solid var(--mainColor);
+}
+
+/*Header*/
+
+.title {
+  margin-top: 35px;
+  font-size: 22px;
+}
+
+.description {
+  margin-bottom: 40px;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid var(--secondarybg);
+}
+
+input {
+  width: inherit;
+  border: none;
+  padding: 18px;
+}
+
+i {
+  padding: 18px;
+}
+
+.map-btn {
+  display: inline-block;
+  background-color: var(--secondarybg);
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+.search-btn {
+  display: inline-block;
+  color: var(--mainbg);
+  background-color: var(--mainColor);
+  border-radius: 15px;
 }
