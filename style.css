@@ -172,6 +172,7 @@ input {
 .info p {
   padding-top: 2.5px;
   padding-left: 10px;
+  margin-bottom: 40px;
 }
 
 /*Section "Plus Populaires"*/
@@ -181,15 +182,71 @@ input {
   width: 100%;
   left: 0%;
   background-color: var(--secondarybg);
+  padding: 20px;
 }
 
 .popular-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
 }
 
 .popular-header h2 {
   font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.popular-card {
+  display: flex;
+  overflow: hidden;
+  background-color: var(--mainbg);
+  border: 5px solid var(--mainbg);
+  border-radius: 20px;
+  box-shadow: 3px 1px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.card-img {
+  width: 60%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.card-img-2 {
+  width: 90%;
+}
+
+.card-img-3 {
+  width: 62%;
+}
+
+.card-details {
+  padding: 0px 30px 15px 25px;
+}
+
+.card-details h3 {
+  margin-bottom: 10px;
+}
+
+.card-details p {
+  margin-top: 0px;
+  margin-bottom: 35px;
+  font-size: 14px;
+}
+
+.card-details span {
+  font-weight: 700;
+}
+
+.card-ratings {
+  display: flex;
+}
+
+.card-ratings i {
+  color: var(--mainColor);
+}
+
+.card-ratings .empty-star {
+  color: var(--secondarybg);
 }
