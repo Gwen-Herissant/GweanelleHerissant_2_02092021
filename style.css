@@ -1,6 +1,7 @@
 /*Color Variables*/
 :root {
   --mainbg: #ffffff;
+  --mainText: #000000;
   --mainColor: #0065fc;
   --secondaryColor: #deebff;
   --secondarybg: #f2f2f2;
@@ -20,10 +21,51 @@ html {
 
 body {
   padding: 30px 20px;
+  margin: 0px;
   background-color: var(--mainbg);
   font-family: "Raleway", sans-serif;
 }
 
 a {
   text-decoration: none;
+  color: var(--mainText);
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+/*NavBar Mobile*/
+
+.menu_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inscription {
+  color: var(--mainColor);
+  font-weight: 700;
+}
+
+.menu_2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 50px;
+}
+
+.btn {
+  padding: 25px 45px 20px 80px;
+  border-bottom: 5px solid var(--secondarybg);
+}
+
+.menu_2 a:active,
+.menu_2 a:hover {
+  color: var(--mainColor);
+}
+
+.btn:active,
+.btn:hover {
+  border-bottom: 5px solid var(--mainColor);
 }
