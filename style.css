@@ -173,3 +173,23 @@ input {
   padding-top: 2.5px;
   padding-left: 10px;
 }
+
+/*Section "Plus Populaires"*/
+
+.popular-section {
+  position: absolute;
+  width: 100%;
+  left: 0%;
+  background-color: var(--secondarybg);
+}
+
+.popular-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.popular-header h2 {
+  font-size: 22px;
+}
