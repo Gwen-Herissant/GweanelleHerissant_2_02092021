@@ -147,3 +147,24 @@ input {
 .filter div {
   padding: 11px 22px 11px 62px;
 }
+
+.info {
+  display: flex;
+  justify-items: center;
+  align-items: flex-start;
+  margin-top: 12px;
+}
+
+.info i {
+  display: inline-block;
+  color: var(--mainColor);
+  padding: 6px 10px;
+  margin-top: 15px;
+  border: 1px solid var(--secondarybg);
+  border-radius: 50%;
+}
+
+.info p {
+  padding-top: 2.5px;
+  padding-left: 10px;
+}
