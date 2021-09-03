@@ -86,9 +86,10 @@ li {
 .searchbar {
   display: flex;
   justify-content: center;
+  overflow: hidden;
   width: 100%;
   border: 1px solid var(--secondarybg);
-  border-radius: 15px;
+  border-radius: 14px;
 }
 
 input {
@@ -104,15 +105,12 @@ input {
 .map-btn {
   display: inline-block;
   background-color: var(--secondarybg);
-  border-bottom-left-radius: 15px;
-  border-top-left-radius: 15px;
 }
 
 .search-btn {
   display: inline-block;
   color: var(--mainbg);
   background-color: var(--mainColor);
-  border-radius: 15px;
 }
 
 .filter-section {
@@ -141,7 +139,7 @@ input {
   color: var(--mainColor);
   background-color: var(--secondaryColor);
   padding: 16px;
-  border-radius: 50%;
+  border-radius: 45px;
 }
 
 .filter div {
