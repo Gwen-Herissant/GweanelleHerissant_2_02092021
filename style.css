@@ -253,6 +253,7 @@ input {
 
 .hebergement-section {
   padding-top: 30px;
+  margin-bottom: 50px;
 }
 
 .hebergement-header h2 {
@@ -297,4 +298,36 @@ input {
 
 .hebergement-section > a {
   font-weight: 700;
+}
+
+/* Section Activités*/
+
+.activites-section {
+}
+
+.activites-header h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.activites-card {
+  display: block;
+  overflow: hidden;
+  background-color: var(--mainbg);
+  border: 5px solid var(--mainbg);
+  border-radius: 20px;
+  box-shadow: 3px 1px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.activites-card h3 {
+  font-size: 14px;
+  margin: 20px 15px;
+}
+
+.act-card-img {
+  height: 135px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
