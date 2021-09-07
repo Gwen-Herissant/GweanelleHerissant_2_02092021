@@ -331,3 +331,27 @@ input {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+/*Footer*/
+
+footer {
+  position: relative;
+  width: 111%;
+  right: 19px;
+  background-color: var(--secondarybg);
+  padding: 30px;
+}
+
+.footer-links {
+  margin-bottom: 40px;
+}
+
+.footer-links h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.footer-links li {
+  font-size: 14px;
+  margin-bottom: 14px;
+}
