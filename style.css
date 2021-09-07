@@ -271,10 +271,6 @@ input {
   margin-bottom: 10px;
 }
 
-.hebergement-card:last-child {
-  margin-bottom: 30px;
-}
-
 .heb-card-img {
   height: 115px;
   background-size: cover;
@@ -303,6 +299,7 @@ input {
 /* Section Activités*/
 
 .activites-section {
+  padding-bottom: 40px;
 }
 
 .activites-header h2 {
