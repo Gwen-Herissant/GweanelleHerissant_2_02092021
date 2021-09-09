@@ -210,6 +210,7 @@ input {
   border: 5px solid var(--mainbg);
   border-radius: 20px;
   box-shadow: 3px 1px 15px rgba(0, 0, 0, 0.1);
+  height: 145px;
   margin-bottom: 10px;
 }
 
@@ -233,13 +234,14 @@ input {
 }
 
 .pop-card-details h3 {
-  margin-bottom: 10px;
+  font-size: 14px;
+  margin-bottom: 15px;
 }
 
 .pop-card-details p {
   margin-top: 0px;
-  margin-bottom: 35px;
-  font-size: 14px;
+  margin-bottom: 30px;
+  font-size: 12px;
 }
 
 .pop-card-details span {
@@ -273,6 +275,7 @@ input {
 .hebergement-card {
   display: block;
   overflow: hidden;
+  height: 210px;
   background-color: var(--mainbg);
   border: 5px solid var(--mainbg);
   border-radius: 20px;
@@ -285,7 +288,7 @@ input {
 }
 
 .heb-card-img {
-  height: 115px;
+  height: 110px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -296,13 +299,15 @@ input {
 }
 
 .heb-card-details h3 {
+  font-size: 14px;
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .heb-card-details p {
+  font-size: 12px;
   margin-top: 0px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .hebergement-section > a {
@@ -476,5 +481,54 @@ footer {
     background-color: var(--secondaryColor);
     /* transform: scale(1.03); */
     transition: all 0.15s ease-in-out;
+  }
+
+  /*Main Section*/
+
+  .main-section-container {
+    display: flex;
+    padding: 0px 50px 0 50px;
+  }
+
+  .popular-section {
+    order: 2;
+    width: 30%;
+    height: 100%;
+    padding: 45px 40px;
+    border-radius: 25px;
+  }
+
+  .popular-header h2 {
+    margin-top: 0px;
+    margin-bottom: 35px;
+  }
+
+  .popular-card {
+    margin-bottom: 30px;
+  }
+
+  .hebergement-section {
+    background-color: var(--secondarybg);
+    border-radius: 25px;
+    width: 70%;
+    padding: 45px 40px;
+    margin-right: 40px;
+  }
+
+  .hebergement-header h2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .hebergement-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    padding: 25px 0px 36px 0px;
+  }
+
+  .hebergement-card:last-child {
+    margin-bottom: 10px;
   }
 }
