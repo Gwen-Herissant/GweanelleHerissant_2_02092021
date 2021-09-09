@@ -150,7 +150,7 @@ input {
   position: absolute;
   color: var(--mainColor);
   background-color: var(--secondaryColor);
-  padding: 16px;
+  padding: 14px;
   border-radius: 45px;
 }
 
@@ -447,5 +447,13 @@ footer {
     color: var(--mainbg);
     background-color: var(--mainColor);
     font-weight: 700;
+  }
+
+  /*fliters hover states*/
+
+  .filter:hover {
+    background-color: var(--secondaryColor);
+    /* transform: scale(1.03); */
+    transition: all 0.15s ease-in-out;
   }
 }
