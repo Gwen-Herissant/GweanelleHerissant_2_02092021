@@ -329,7 +329,7 @@ input {
   display: block;
   overflow: hidden;
   background-color: var(--mainbg);
-  border: 5px solid var(--mainbg);
+  border: 3px solid var(--mainbg);
   border-radius: 20px;
   box-shadow: 3px 1px 15px rgba(0, 0, 0, 0.1);
   margin-bottom: 15px;
@@ -530,5 +530,49 @@ footer {
 
   .hebergement-card:last-child {
     margin-bottom: 10px;
+  }
+
+  /*Activités*/
+
+  .activites-section {
+    padding: 45px 40px;
+  }
+
+  .activites-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .activites-card {
+    width: 320px;
+    margin-bottom: 40px;
+  }
+
+  .act-card-img {
+    width: 320px;
+  }
+
+  .act-1 .act-card-img {
+    height: 390px;
+  }
+
+  .act-2 .act-card-img {
+    height: 185px;
+  }
+
+  .act-3 .act-card-img {
+    height: 390px;
+  }
+
+  .act-4 .act-card-img {
+    height: 140px;
+  }
+
+  .act-5 .act-card-img {
+    height: 110px;
+  }
+
+  .act-6 .act-card-img {
+    height: 155px;
   }
 }
