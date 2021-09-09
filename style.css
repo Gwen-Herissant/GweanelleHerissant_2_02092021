@@ -507,7 +507,8 @@ footer {
     border-radius: 25px;
   }
 
-  .popular-header h2 {
+  .popular-header h2,
+  .popular-section i {
     margin-top: 0px;
     margin-bottom: 35px;
   }
