@@ -575,4 +575,14 @@ footer {
   .act-6 .act-card-img {
     height: 155px;
   }
+
+  /*Footer*/
+
+  footer {
+    display: flex;
+  }
+
+  .footer-links {
+    margin: 0px 290px 10px 20px;
+  }
 }
