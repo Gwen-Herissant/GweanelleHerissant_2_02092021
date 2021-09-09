@@ -596,6 +596,14 @@ footer {
   .footer-links {
     margin: 0px 290px 10px 20px;
   }
+
+  /*cards hover states*/
+  .popular-card:hover,
+  .hebergement-card:hover,
+  .activites-card:hover {
+    transform: scale(1.02);
+    transition: all 0.15s ease-in-out;
+  }
 }
 
 /*Tablet styles*/
