@@ -597,3 +597,171 @@ footer {
     margin: 0px 290px 10px 20px;
   }
 }
+
+/*Tablet styles*/
+
+@media only screen and (min-width: 768px) {
+  /*Tablet Navbar*/
+  .mobile-nav {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0px 40px 0 40px;
+  }
+
+  .desktop-nav-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    padding-top: 25px;
+  }
+
+  .nav-btn {
+    padding: 40px 25px;
+    border-bottom: none;
+    border-top: 3px solid var(--mainbg);
+  }
+
+  .nav-btn:last-of-type {
+    padding: 40px 44px;
+    margin-right: 25px;
+  }
+
+  .nav-btn a:active,
+  .nav-btn a:hover {
+    color: var(--mainColor);
+    transition: color 0.15s ease-in-out;
+  }
+
+  .nav-btn:active,
+  .nav-btn:hover {
+    border-bottom: none;
+    border-top: 3px solid var(--mainColor);
+    transition: border 0.5s ease-in-out;
+  }
+
+  /*searchbar & filters*/
+  header {
+    padding: 0px 40px;
+  }
+
+  /*Most popular*/
+
+  .popular-section {
+    width: 85%;
+    height: 100%;
+    padding: 45px 40px;
+    border-radius: 25px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .popular-header h2,
+  .popular-section i {
+    margin-top: 0px;
+    margin-bottom: 35px;
+  }
+
+  .popular-card {
+    display: flex;
+    overflow: hidden;
+    background-color: var(--mainbg);
+    border: 5px solid var(--mainbg);
+    border-radius: 20px;
+    box-shadow: 3px 1px 15px rgba(0, 0, 0, 0.1);
+    height: 170px;
+    margin-bottom: 30px;
+  }
+
+  .pop-card-img {
+    width: 45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .pop-card-img-2 {
+    width: 47%;
+  }
+
+  .pop-card-img-3 {
+    width: 45%;
+  }
+
+  .pop-card-details {
+    padding: 0px 30px 15px 25px;
+  }
+
+  .pop-card-details h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .pop-card-details p {
+    margin-top: 0px;
+    margin-bottom: 60px;
+    font-size: 14px;
+  }
+
+  .pop-card-2 p {
+    margin-bottom: 40px;
+  }
+
+  /*Hébergements*/
+
+  .hebergement-section {
+    background-color: var(--secondarybg);
+    border-radius: 25px;
+    width: 85%;
+    padding: 45px 40px;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .hebergement-header h2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .hebergement-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
+    padding: 25px 0px 36px 0px;
+  }
+
+  .hebergement-card:last-child {
+    margin-bottom: 10px;
+  }
+
+  /*Activités*/
+
+  .activites-section {
+    width: 85%;
+    margin: auto;
+  }
+
+  .activites-card {
+    width: 80%;
+    height: 220px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .act-card-img {
+    height: 160px;
+  }
+
+  /*Footer*/
+
+  footer {
+    text-align: center;
+  }
+}
