@@ -152,6 +152,7 @@ input {
   background-color: var(--secondaryColor);
   padding: 14px;
   border-radius: 45px;
+  transform: translate(-3px, 1px);
 }
 
 .filter div {
