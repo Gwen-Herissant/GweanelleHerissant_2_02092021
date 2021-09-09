@@ -423,6 +423,10 @@ footer {
     padding: 0px 80px 0 50px;
   }
 
+  .title {
+    margin-top: 15px;
+  }
+
   .intro p {
     margin-bottom: 30px;
   }
@@ -483,6 +487,10 @@ footer {
     transition: all 0.15s ease-in-out;
   }
 
+  .info p {
+    margin-bottom: 50px;
+  }
+
   /*Main Section*/
 
   .main-section-container {
@@ -513,6 +521,7 @@ footer {
     width: 70%;
     padding: 45px 40px;
     margin-right: 40px;
+    margin-bottom: 0px;
   }
 
   .hebergement-header h2 {
@@ -535,7 +544,7 @@ footer {
   /*Activités*/
 
   .activites-section {
-    padding: 45px 40px;
+    padding: 45px 40px 20px 40px;
   }
 
   .activites-container {
