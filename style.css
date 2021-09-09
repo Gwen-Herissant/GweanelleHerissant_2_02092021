@@ -411,4 +411,41 @@ footer {
     border-top: 3px solid var(--mainColor);
     transition: border 0.5s ease-in-out;
   }
+
+  /*Desktop searchbar*/
+
+  .searchbar {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 30%;
+    border: 1px solid var(--secondarybg);
+    border-radius: 14px;
+  }
+
+  input {
+    width: 100%;
+    border: none;
+    padding: 14px;
+  }
+
+  .searchbar i {
+    height: 100%;
+  }
+
+  .search-btn i {
+    display: none;
+  }
+
+  .search-btn::after {
+    content: "Rechercher";
+    visibility: visible;
+    display: inline-block;
+    overflow: hidden;
+    padding: 14px;
+    transform: translateY(2px);
+    color: var(--mainbg);
+    background-color: var(--mainColor);
+    font-weight: 700;
+  }
 }
