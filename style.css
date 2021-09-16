@@ -601,14 +601,14 @@ footer {
     display: flex;
     justify-content: center;
     overflow: hidden;
-    width: 30%;
+    width: 393px;
     border: 1px solid var(--secondarybg);
     border-radius: 14px;
     margin-bottom: 10px;
   }
 
   input {
-    width: 100%;
+    min-width: 230px;
     border: none;
     padding: 14px;
   }
