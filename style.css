@@ -218,6 +218,7 @@ input {
 
 .pop-card-img {
   width: 60%;
+  max-width: 318px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -453,6 +454,7 @@ footer {
 
   .pop-card-img {
     width: 45%;
+    max-width: 254px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
