@@ -732,6 +732,11 @@ footer {
     margin-right: 0;
   }
 
+  .act-2,
+  .act-4 {
+    margin-bottom: 35px;
+  }
+
   .act-card-img {
     width: 320px;
   }
@@ -765,7 +770,7 @@ footer {
   footer {
     display: flex;
     justify-content: center;
-    height: 30%;
+    height: 35%;
     overflow: hidden;
   }
 
