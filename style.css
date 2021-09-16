@@ -379,6 +379,10 @@ footer {
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   /*Tablet Navbar*/
 
+  .navbar {
+    height: 100px;
+  }
+
   .menu_1 {
     display: flex;
     justify-content: space-between;
@@ -544,6 +548,10 @@ footer {
 
 @media only screen and (min-width: 1024px) {
   /*desktop nav*/
+
+  .navbar {
+    height: 100px;
+  }
 
   .menu_1 {
     display: flex;
