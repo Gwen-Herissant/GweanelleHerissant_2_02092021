@@ -724,6 +724,12 @@ footer {
   .activites-card {
     width: 320px;
     margin-bottom: 40px;
+    margin-right: 25px;
+  }
+
+  .act-4,
+  .act-6 {
+    margin-right: 0;
   }
 
   .act-card-img {
