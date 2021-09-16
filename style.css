@@ -718,7 +718,7 @@ footer {
 
   .activites-container {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
 
   .activites-card {
@@ -764,6 +764,7 @@ footer {
 
   footer {
     display: flex;
+    justify-content: center;
   }
 
   .footer-links {
@@ -776,22 +777,5 @@ footer {
   .activites-card:hover {
     transform: scale(1.02);
     transition: all 0.15s ease-in-out;
-  }
-}
-
-/*limits for huge screens*/
-
-@media only screen and (min-width: 1440px) {
-  footer {
-    margin: auto;
-    height: 100%;
-  }
-
-  .footer-links:first-of-type {
-    margin-left: auto;
-  }
-
-  .footer-links:last-of-type {
-    margin-right: auto;
   }
 }
