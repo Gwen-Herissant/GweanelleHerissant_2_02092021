@@ -142,7 +142,7 @@ input {
 .filter {
   display: flex;
   align-items: center;
-  border: 3.5px solid var(--secondarybg);
+  border: 2px solid var(--secondarybg);
   border-radius: 2.8125em;
   margin: 0.25em;
 }
@@ -151,9 +151,9 @@ input {
   position: absolute;
   color: var(--mainColor);
   background-color: var(--secondaryColor);
-  padding: 0.9375em;
+  padding: 16px;
   border-radius: 2.8125em;
-  transform: translate(-0.1875em, 0.0625em);
+  transform: translate(-0.0875em, 0.0625em);
 }
 
 .filter div {
