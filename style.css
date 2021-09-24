@@ -528,14 +528,14 @@ footer {
   }
 
   .activites-card {
-    width: 80%;
-    height: 13.75em;
-    margin: auto;
+    /* width: 85%; */
+    height: 15.75em;
+    /* margin: auto; */
     margin-bottom: 1.875em;
   }
 
   .act-card-img {
-    height: 10em;
+    height: 12em;
   }
 
   /*Footer*/
@@ -678,7 +678,7 @@ footer {
 
   .popular-section {
     order: 2;
-    width: 30%;
+    width: 420px;
     height: 100%;
     padding: 2.8125em 2.5em;
     border-radius: 1.5625em;
@@ -692,12 +692,13 @@ footer {
 
   .popular-card {
     margin-bottom: 1.875em;
+    min-width: 345px;
   }
 
   .hebergement-section {
     background-color: var(--secondarybg);
     border-radius: 1.5625em;
-    width: 70%;
+    width: 880px;
     padding: 2.8125em 2.5em;
     margin-right: 2.5em;
     margin-bottom: 0em;
@@ -714,6 +715,10 @@ footer {
     grid-template-rows: repeat(2, 1fr);
     gap: 1.875em;
     padding: 1.5625em 0em 2.25em 0em;
+  }
+
+  .hebergement-card {
+    min-width: 245px;
   }
 
   .hebergement-card:last-child {
@@ -733,6 +738,7 @@ footer {
 
   .activites-card {
     width: 20em;
+    min-width: 315px;
     margin-bottom: 2.5em;
     margin-right: 1.5625em;
   }
