@@ -381,7 +381,7 @@ footer {
 
   .navbar {
     height: 6.25em;
-    padding: 2.5em;
+    padding: 1.85em;
   }
 
   .menu_1 {
@@ -717,9 +717,9 @@ footer {
     padding: 1.5625em 0em 2.25em 0em;
   }
 
-  .hebergement-card {
-    /* min-width: 170px; */
-  }
+  /* .hebergement-card {
+    min-width: 170px;
+  } */
 
   .hebergement-card:last-child {
     margin-bottom: 0.625em;
