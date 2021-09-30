@@ -205,6 +205,11 @@ input {
   margin-bottom: 1.875em;
 }
 
+.fa,
+.fas {
+  margin-bottom: 0.875em;
+}
+
 .popular-card {
   display: flex;
   overflow: hidden;
@@ -381,7 +386,7 @@ footer {
 
   .navbar {
     height: 6.25em;
-    padding: 1.85em;
+    padding: 2em;
   }
 
   .menu_1 {
