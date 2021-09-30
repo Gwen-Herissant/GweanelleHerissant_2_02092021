@@ -528,14 +528,14 @@ footer {
   }
 
   .activites-card {
-    width: 80%;
-    height: 13.75em;
+    width: 85%;
+    height: 15.75em;
     margin: auto;
     margin-bottom: 1.875em;
   }
 
   .act-card-img {
-    height: 10em;
+    height: 12em;
   }
 
   /*Footer*/
@@ -692,6 +692,7 @@ footer {
 
   .popular-card {
     margin-bottom: 1.875em;
+    /* min-width: 345px; */
   }
 
   .hebergement-section {
@@ -716,6 +717,10 @@ footer {
     padding: 1.5625em 0em 2.25em 0em;
   }
 
+  /* .hebergement-card {
+    min-width: 245px;
+  } */
+
   .hebergement-card:last-child {
     margin-bottom: 0.625em;
   }
@@ -733,6 +738,7 @@ footer {
 
   .activites-card {
     width: 20em;
+    /* min-width: 315px; */
     margin-bottom: 2.5em;
     margin-right: 1.5625em;
   }
