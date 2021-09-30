@@ -663,6 +663,10 @@ footer {
     margin-right: 1.5625em;
   }
 
+  .filter i {
+    padding: 1em;
+  }
+
   .filter:hover {
     background-color: var(--secondaryColor);
     /* transform: scale(1.03); */
