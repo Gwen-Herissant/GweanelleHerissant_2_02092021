@@ -1,0 +1,66 @@
+Rappels :
+
+Couleurs : bleu #0065FC; bleu clair #DEEBFF; gris (fond) #F2F2F2
+Police = https://fonts.google.com/specimen/Raleway
+Icones sur https://fontawesome.com/
+Liens vides & filtres pas actifs
+"Hébergements" et "activités" = ancres menant aux sections correpsondantes
+Pour tablette : carte blanche
+
+
+Mobile first :
+ 
+- Navbar sur 2 ligne :
+   > logo et lien "s'inscrire" (dans conteneur flex ?)
+   > liens ancres (dans conteneur flex)
+ 
+- Header : 
+   > div -> texte (h+p)
+   > div -> searchbar (a+input+a/btn) en flex
+   > Filtres -> conteneur flex (avec wrap) -> 4 liens (avec logo) en forme de btn
+   > icon + p (hover sur i ?)
+
+- Section principale
+  => Div "+ populaires"
+       > h1 + icon
+       > cards a -> img + h + p + span (prix) + étoiles (notation) -> Flex pour img à gauche
+       > sur 1 seule colonne 
+  => Div "hébergements" (id pour ancre)
+       > h1
+       > cards a -> img + h + p + span (prix) + étoiles (notation)
+       > sur 1 seule colonne 
+       > lien ("afficher plus")
+
+- Section "Activités" (id pour ancre)
+   > h2(?)
+   > cards a -> img + h
+   > sur 1 seule colonne
+
+- Footer :
+   > div x3 -> h2 + liens
+   > sur 1 seule colonne
+
+ 
+Desktop :
+
+- Navbar (=> certainement en refaire une complètement pour desktop, si c'est le cas, vois avec classes "mobile" pour switcher) :
+   > tout sur 1 ligne
+   > logo à gauche seul
+  (> section nav = conteneur flex ?)
+- Header :
+   > searchbar -> changer icon loupe en "rechercher"
+   > filtres -> hover state
+- Section Principale :
+   > "Hébergement" au centre avec display grid
+   > "+ populaire" à droite en 1 colonne
+- Section "Activités" :
+   > display grid (classique ou template area ?)
+- Footer :
+   > chaque div sur un colonne
+  (> section footer = conteneur flex ?)
+
+
+Breakpoints :
+Desktop : min-width = 1024px
+Tablette : min-width = 768px (max = 1023px)
+
